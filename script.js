@@ -286,35 +286,3 @@ function checkWin(){ //if there are no valid moves left, innerHTML for player tu
     $playerTurn.addClass('textRed');
   }
 };
-
-// make temporary dot that is placed on possible moves for active player
-// function possibleMoves(){
-//   // console.log('checkwin firing')
-//   var hasValidMove = false; //default to there being no valid moves
-//   var color = 'black';
-//   if (counter%2 !== 0) {
-//     color = "white";
-//   }
-//
-//   //Loop through the board, check each empty square to see if there is a valid move
-//   for (i=0; i<=63; i++){
-//     if (isEmpty($('#' + i))){
-//
-//       var directions = ['up', 'up-right', 'right', 'down-right', 'down', 'down-left', 'left', 'up-left']
-//       var validMove = 0;
-//       for (var j = 0; j < directions.length; j++) {
-//         //loop through the directions
-//         var elements = getElements($('#'+i), directions[j], color);
-//         validMove += inspectLine(elements, color);
-//         //console.log("===========",validMove)
-//       }
-//       if (validMove>0){
-//         //if we detect a valid move, break loop, game can continue
-//         hasValidMove = true;
-//         console.log('hasValidMove, id: ', i);
-//         break;
-//         return;//stops function
-//       }
-//     }
-//   }
-// }
