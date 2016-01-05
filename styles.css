@@ -72,7 +72,7 @@ html {
 }
 
 body {
-  background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
+  background-image: url("./images/background.jpg");
   background-size: 100% 750px;
   background-repeat: no-repeat;
   height: 100%;
@@ -101,11 +101,11 @@ body {
 }
 
 .black {
- background-image: url("http://alloutput.com/wp-content/uploads/2013/11/black-circle-mask-to-fill-compass-outline.png");
+ background-image: url("./images/black-circle.png");
  background-size: 100%;
 
 }
 
 .white {
- background-image: url("http://www.iconsdb.com/icons/preview/black/circle-outline-xxl.png");
+   background-image: url("./images/circle-outline.png");
  background-size: 100%;
