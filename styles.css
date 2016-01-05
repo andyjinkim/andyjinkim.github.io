@@ -72,15 +72,18 @@ html {
 }
 
 body {
+  background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
+  background-size: 100% 750px;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
-#page {
-  background-repeat: no-repeat;
-  background-size: 100% 750px;
+/*#page {
   background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
-}
+  background-size: 100%;
+  background-repeat: no-repeat;
+}*/
 
 #container {
   text-align: center;
