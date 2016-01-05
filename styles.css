@@ -77,14 +77,14 @@ body {
 }
 
 #page {
-  width: 100%;
-  background-image: url("http://www.wallcdn.com/wp-content/uploads/2015/05/Brown-Wallpaper-Vintage-Desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("http://www.hdwalley.com/wp-content/uploads/2015/10/cool_wallpaper_cool_2001_hd_background-1024x576.jpg");
 }
 
 #container {
   text-align: center;
   margin-top: -20px;
-  /*background-image: url("http://www.wallcdn.com/wp-content/uploads/2015/05/Brown-Wallpaper-Vintage-Desktop.jpg");*/
 }
 
 .box {
@@ -104,14 +104,5 @@ body {
 }
 
 .white {
- background-image: url("http://exchangedownloads.smarttech.com/public/content/e6/e6dc9c0f-2e1c-4d8a-9bc5-2dc288fc61c0/previews/medium/0001.png");
+ background-image: url("http://www.iconsdb.com/icons/preview/black/circle-outline-xxl.png");
  background-size: 100%;
-}
-
-/*.moveDot {
-  background-image: url("http://web.media.mit.edu/~kdinakar/images/grayDot.png");
-}*/
-
-/*body {
-  text-align: center;
-}*/
